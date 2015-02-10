@@ -1,0 +1,14 @@
+{
+  "name": "mib/pdf",
+  "description": "fpdf wrapper for generating pdf files",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mib\\Component\\PDF\\": "src/"
+    }
+  },
+  "require": {
+    "itbz/fpdf": "1.*"
+  }
+}
